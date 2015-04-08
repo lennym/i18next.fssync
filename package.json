@@ -4,7 +4,8 @@
   "description": "Synchronous fs backend for i18next",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ./lib",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "homepage": "https://github.com/lennym/i18next.fssync",
   "dependencies": {
     "json5": "^0.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^0.18.0"
   }
 }
