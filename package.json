@@ -1,0 +1,21 @@
+{
+  "name": "i18next.fssync",
+  "version": "1.0.0",
+  "description": "Synchronous fs backend for i18next",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lennym/i18next.fssync.git"
+  },
+  "author": "Leonard Martin <hello@lennym.co.uk>",
+  "bugs": {
+    "url": "https://github.com/lennym/i18next.fssync/issues"
+  },
+  "homepage": "https://github.com/lennym/i18next.fssync",
+  "dependencies": {
+    "json5": "^0.4.0"
+  }
+}
